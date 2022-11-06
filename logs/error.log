@@ -1,0 +1,210 @@
+[Sat Jul 16 19:09:33.016160 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148] mod_wsgi (pid=7407): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:09:33.016266 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148] mod_wsgi (pid=7407): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:09:33.016504 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148] Traceback (most recent call last):
+[Sat Jul 16 19:09:33.016637 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:09:33.016761 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148]     from app import app as application
+[Sat Jul 16 19:09:33.016933 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42148] ImportError: cannot import name 'app' from 'app' (unknown location)
+[Sat Jul 16 19:09:33.048708 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154] mod_wsgi (pid=7407): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:09:33.048785 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154] mod_wsgi (pid=7407): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:09:33.048905 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154] Traceback (most recent call last):
+[Sat Jul 16 19:09:33.048949 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:09:33.048960 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154]     from app import app as application
+[Sat Jul 16 19:09:33.049030 2022] [wsgi:error] [pid 7407] [remote 192.168.42.63:42154] ImportError: cannot import name 'app' from 'app' (unknown location)
+[Sat Jul 16 19:10:26.340414 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054] mod_wsgi (pid=7476, process='helloworldapp', application='192.168.42.63|'): Could not read/compile source file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:10:26.340521 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054] mod_wsgi (pid=7476): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:10:26.349785 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054]   File "/var/www/html/flask-site/flask-site.wsgi", line 11
+[Sat Jul 16 19:10:26.349847 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054]     from flask-site.app import app as application
+[Sat Jul 16 19:10:26.349879 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054]               ^
+[Sat Jul 16 19:10:26.349897 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41054] SyntaxError: invalid syntax
+[Sat Jul 16 19:10:26.373259 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070] mod_wsgi (pid=7476, process='helloworldapp', application='192.168.42.63|'): Could not read/compile source file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:10:26.373328 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070] mod_wsgi (pid=7476): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:10:26.373422 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070]   File "/var/www/html/flask-site/flask-site.wsgi", line 11
+[Sat Jul 16 19:10:26.373452 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070]     from flask-site.app import app as application
+[Sat Jul 16 19:10:26.373481 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070]               ^
+[Sat Jul 16 19:10:26.373495 2022] [wsgi:error] [pid 7476] [remote 192.168.42.63:41070] SyntaxError: invalid syntax
+[Sat Jul 16 19:11:32.024055 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666] mod_wsgi (pid=7549): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:11:32.024246 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666] mod_wsgi (pid=7549): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:11:32.087331 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666] Traceback (most recent call last):
+[Sat Jul 16 19:11:32.087469 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:11:32.087492 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     from app.api import app as application
+[Sat Jul 16 19:11:32.087509 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:11:32.087519 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     Session(app)
+[Sat Jul 16 19:11:32.087533 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:11:32.087549 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     self.init_app(app)
+[Sat Jul 16 19:11:32.087563 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:11:32.087574 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:11:32.087588 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:11:32.087602 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:11:32.087616 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:11:32.087628 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:11:32.087644 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:11:32.087657 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     os.makedirs(self._path)
+[Sat Jul 16 19:11:32.087672 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:11:32.087683 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666]     mkdir(name, mode)
+[Sat Jul 16 19:11:32.087716 2022] [wsgi:error] [pid 7549] [remote 192.168.42.63:46666] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 19:13:30.723346 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450] mod_wsgi (pid=7713): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:13:30.723428 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450] mod_wsgi (pid=7713): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:13:30.724365 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450] Traceback (most recent call last):
+[Sat Jul 16 19:13:30.724428 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:13:30.724440 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     from app.api import app as application
+[Sat Jul 16 19:13:30.724450 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:13:30.724455 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     Session(app)
+[Sat Jul 16 19:13:30.724463 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:13:30.724469 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     self.init_app(app)
+[Sat Jul 16 19:13:30.724491 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:13:30.724498 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:13:30.724505 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:13:30.724511 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:13:30.724518 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:13:30.724524 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:13:30.724531 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:13:30.724536 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     os.makedirs(self._path)
+[Sat Jul 16 19:13:30.724543 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:13:30.724549 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450]     mkdir(name, mode)
+[Sat Jul 16 19:13:30.724568 2022] [wsgi:error] [pid 7713] [remote 192.168.42.63:55450] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 19:20:42.764207 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722] mod_wsgi (pid=8240): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:20:42.764291 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722] mod_wsgi (pid=8240): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:20:42.771316 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722] Traceback (most recent call last):
+[Sat Jul 16 19:20:42.771400 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:20:42.771410 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     from app.api import app as application
+[Sat Jul 16 19:20:42.771440 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:20:42.771446 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     Session(app)
+[Sat Jul 16 19:20:42.771454 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:20:42.771460 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     self.init_app(app)
+[Sat Jul 16 19:20:42.771481 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:20:42.771494 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:20:42.771503 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:20:42.771509 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:20:42.771516 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:20:42.771535 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:20:42.771544 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:20:42.771549 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     os.makedirs(self._path)
+[Sat Jul 16 19:20:42.771571 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:20:42.771584 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722]     mkdir(name, mode)
+[Sat Jul 16 19:20:42.771613 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:55722] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 19:27:36.284929 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964] mod_wsgi (pid=8240): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:36.285060 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964] mod_wsgi (pid=8240): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:36.285272 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964] Traceback (most recent call last):
+[Sat Jul 16 19:27:36.285371 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:27:36.285407 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     from app.api import app as application
+[Sat Jul 16 19:27:36.285440 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:27:36.285467 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     Session(app)
+[Sat Jul 16 19:27:36.285496 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:27:36.285523 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     self.init_app(app)
+[Sat Jul 16 19:27:36.285551 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:27:36.285577 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:27:36.285606 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:27:36.285632 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:27:36.285660 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:27:36.285686 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:27:36.285714 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:27:36.285740 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     os.makedirs(self._path)
+[Sat Jul 16 19:27:36.285767 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:27:36.285793 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964]     mkdir(name, mode)
+[Sat Jul 16 19:27:36.285833 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43964] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 19:27:38.226329 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980] mod_wsgi (pid=8240): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:38.226496 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980] mod_wsgi (pid=8240): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:38.226798 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980] Traceback (most recent call last):
+[Sat Jul 16 19:27:38.226938 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:27:38.226994 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     from app.api import app as application
+[Sat Jul 16 19:27:38.227124 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:27:38.227177 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     Session(app)
+[Sat Jul 16 19:27:38.227223 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:27:38.227264 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     self.init_app(app)
+[Sat Jul 16 19:27:38.227307 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:27:38.227346 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:27:38.227389 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:27:38.227428 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:27:38.227471 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:27:38.227510 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:27:38.227552 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:27:38.227591 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     os.makedirs(self._path)
+[Sat Jul 16 19:27:38.227633 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:27:38.227671 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980]     mkdir(name, mode)
+[Sat Jul 16 19:27:38.227738 2022] [wsgi:error] [pid 8240] [remote 192.168.42.63:43980] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 19:27:48.004821 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082] mod_wsgi (pid=8577): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:48.004906 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082] mod_wsgi (pid=8577): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sat Jul 16 19:27:48.005862 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082] Traceback (most recent call last):
+[Sat Jul 16 19:27:48.005934 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sat Jul 16 19:27:48.005946 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     from app.api import app as application
+[Sat Jul 16 19:27:48.005956 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/app/api/__init__.py", line 27, in <module>
+[Sat Jul 16 19:27:48.005977 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     Session(app)
+[Sat Jul 16 19:27:48.005987 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 54, in __init__
+[Sat Jul 16 19:27:48.005993 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     self.init_app(app)
+[Sat Jul 16 19:27:48.006001 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 61, in init_app
+[Sat Jul 16 19:27:48.006006 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     app.session_interface = self._get_interface(app)
+[Sat Jul 16 19:27:48.006014 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/__init__.py", line 90, in _get_interface
+[Sat Jul 16 19:27:48.006019 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     session_interface = FileSystemSessionInterface(
+[Sat Jul 16 19:27:48.006027 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask_session/sessions.py", line 322, in __init__
+[Sat Jul 16 19:27:48.006032 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     self.cache = FileSystemCache(cache_dir, threshold=threshold, mode=mode)
+[Sat Jul 16 19:27:48.006040 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/cachelib/file.py", line 65, in __init__
+[Sat Jul 16 19:27:48.006047 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     os.makedirs(self._path)
+[Sat Jul 16 19:27:48.006055 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]   File "/usr/lib/python3.10/os.py", line 225, in makedirs
+[Sat Jul 16 19:27:48.006062 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082]     mkdir(name, mode)
+[Sat Jul 16 19:27:48.006081 2022] [wsgi:error] [pid 8577] [remote 192.168.42.63:44082] PermissionError: [Errno 13] Permission denied: '/flask_session'
+[Sat Jul 16 20:55:34.593757 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212] [2022-07-16 20:55:34,592] ERROR in app: Exception on / [GET]
+[Sat Jul 16 20:55:34.621725 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212] Traceback (most recent call last):
+[Sat Jul 16 20:55:34.621749 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+[Sat Jul 16 20:55:34.621755 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     response = self.full_dispatch_request()
+[Sat Jul 16 20:55:34.621760 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1519, in full_dispatch_request
+[Sat Jul 16 20:55:34.621766 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     rv = self.handle_user_exception(e)
+[Sat Jul 16 20:55:34.621771 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1517, in full_dispatch_request
+[Sat Jul 16 20:55:34.621776 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     rv = self.dispatch_request()
+[Sat Jul 16 20:55:34.621782 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1503, in dispatch_request
+[Sat Jul 16 20:55:34.621787 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Sat Jul 16 20:55:34.621792 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/app/api/routes.py", line 17, in hello
+[Sat Jul 16 20:55:34.621797 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     return render_template("main.html")
+[Sat Jul 16 20:55:34.621825 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 155, in render_template
+[Sat Jul 16 20:55:34.621831 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+[Sat Jul 16 20:55:34.621836 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+[Sat Jul 16 20:55:34.621841 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     return self.get_template(template_name_or_list, parent, globals)
+[Sat Jul 16 20:55:34.621846 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+[Sat Jul 16 20:55:34.621851 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     return self._load_template(name, globals)
+[Sat Jul 16 20:55:34.621855 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+[Sat Jul 16 20:55:34.621860 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     template = self.loader.load(self, name, self.make_globals(globals))
+[Sat Jul 16 20:55:34.621865 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+[Sat Jul 16 20:55:34.621870 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     source, filename, uptodate = self.get_source(environment, name)
+[Sat Jul 16 20:55:34.621874 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 59, in get_source
+[Sat Jul 16 20:55:34.621879 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     return self._get_source_fast(environment, template)
+[Sat Jul 16 20:55:34.621884 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 95, in _get_source_fast
+[Sat Jul 16 20:55:34.621888 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212]     raise TemplateNotFound(template)
+[Sat Jul 16 20:55:34.621893 2022] [wsgi:error] [pid 15907] [remote 192.168.42.63:58212] jinja2.exceptions.TemplateNotFound: main.html
+[Sun Aug 14 13:37:34.702509 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018] mod_wsgi (pid=5009): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sun Aug 14 13:37:34.740849 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018] mod_wsgi (pid=5009): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sun Aug 14 13:37:34.741132 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018] Traceback (most recent call last):
+[Sun Aug 14 13:37:34.741160 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sun Aug 14 13:37:34.741166 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018]     from app.api import app as application
+[Sun Aug 14 13:37:34.741185 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42018] ImportError: cannot import name 'app' from 'app.api' (/var/www/html/flask-site/app/api/__init__.py)
+[Sun Aug 14 13:37:34.826461 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034] mod_wsgi (pid=5009): Failed to exec Python script file '/var/www/html/flask-site/flask-site.wsgi'.
+[Sun Aug 14 13:37:34.826515 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034] mod_wsgi (pid=5009): Exception occurred processing WSGI script '/var/www/html/flask-site/flask-site.wsgi'.
+[Sun Aug 14 13:37:34.826598 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034] Traceback (most recent call last):
+[Sun Aug 14 13:37:34.826647 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034]   File "/var/www/html/flask-site/flask-site.wsgi", line 11, in <module>
+[Sun Aug 14 13:37:34.826654 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034]     from app.api import app as application
+[Sun Aug 14 13:37:34.826741 2022] [wsgi:error] [pid 5009] [remote 127.0.0.1:42034] ImportError: cannot import name 'app' from 'app.api' (/var/www/html/flask-site/app/api/__init__.py)
+[Sun Aug 14 13:39:58.605638 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770] [2022-08-14 13:39:58,574] ERROR in app: Exception on / [GET]
+[Sun Aug 14 13:39:58.605699 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770] Traceback (most recent call last):
+[Sun Aug 14 13:39:58.605706 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+[Sun Aug 14 13:39:58.605712 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     response = self.full_dispatch_request()
+[Sun Aug 14 13:39:58.605717 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1519, in full_dispatch_request
+[Sun Aug 14 13:39:58.605722 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     rv = self.handle_user_exception(e)
+[Sun Aug 14 13:39:58.605727 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1517, in full_dispatch_request
+[Sun Aug 14 13:39:58.605732 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     rv = self.dispatch_request()
+[Sun Aug 14 13:39:58.605737 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/app.py", line 1503, in dispatch_request
+[Sun Aug 14 13:39:58.605742 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+[Sun Aug 14 13:39:58.605747 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/app/api/routes.py", line 19, in hello
+[Sun Aug 14 13:39:58.605752 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     return render_template("main.html")
+[Sun Aug 14 13:39:58.605756 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 155, in render_template
+[Sun Aug 14 13:39:58.605761 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+[Sun Aug 14 13:39:58.605766 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+[Sun Aug 14 13:39:58.605771 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     return self.get_template(template_name_or_list, parent, globals)
+[Sun Aug 14 13:39:58.605776 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+[Sun Aug 14 13:39:58.605781 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     return self._load_template(name, globals)
+[Sun Aug 14 13:39:58.605786 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+[Sun Aug 14 13:39:58.605791 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     template = self.loader.load(self, name, self.make_globals(globals))
+[Sun Aug 14 13:39:58.605796 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+[Sun Aug 14 13:39:58.605801 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     source, filename, uptodate = self.get_source(environment, name)
+[Sun Aug 14 13:39:58.605818 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 59, in get_source
+[Sun Aug 14 13:39:58.605824 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     return self._get_source_fast(environment, template)
+[Sun Aug 14 13:39:58.605829 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]   File "/var/www/html/flask-site/roboenv/lib/python3.10/site-packages/flask/templating.py", line 95, in _get_source_fast
+[Sun Aug 14 13:39:58.605834 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770]     raise TemplateNotFound(template)
+[Sun Aug 14 13:39:58.605838 2022] [wsgi:error] [pid 5438] [remote 127.0.0.1:56770] jinja2.exceptions.TemplateNotFound: main.html

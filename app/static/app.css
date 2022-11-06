@@ -1,0 +1,18 @@
+.header-inner {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+#navigation {
+    display: inline-block;
+    left: 285px;
+}
+
+#navigation, #navigation-right {
+    position: absolute;
+    top: 38px;
+    height: 30px;
+}
