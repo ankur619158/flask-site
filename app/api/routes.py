@@ -16,7 +16,7 @@ PasswordPattern = r'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*#?&])[^ \s]{8,}'
 
 @app.route('/')
 def hello():
-    return render_template("main.html")
+    return("hello world")
 
 
 @app.route('/api/login' , methods = ["POST"])
