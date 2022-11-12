@@ -1,6 +1,0 @@
-Flask
-Flask-Mail
-Flask-SQLAlchemy
-Flask-Migrate
-Flask-Session
-psycopg2-binary
