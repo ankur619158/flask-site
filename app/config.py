@@ -7,11 +7,11 @@ class Config(object):
     SESSION_PERMANENT = False
     SESSION_TYPE = 'filesystem'
 
-    user = 'postgres'
-    password = 'postgres'
-    host = 'localhost'
+    user = 'mclbtgevgkmygr'
+    password = '6ab1508f58bdcee3831f3c4b46163470fbfdafd31fa4934783231dd699bfafc3'
+    host = 'ec2-44-193-178-122.compute-1.amazonaws.com'
     port = 5432
-    db_name = 'flask_db'
+    db_name = 'd5l41ilkvbelb7'
 
     SQLALCHEMY_DATABASE_URI = f'postgresql://{user}:{password}@{host}:{port}/{db_name}'
     # SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(basedir, 'database.db')
