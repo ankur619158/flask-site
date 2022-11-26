@@ -15,7 +15,7 @@ class Config(object):
 
     # SQLALCHEMY_DATABASE_URI = f'postgresql://{user}:{password}@{host}:{port}/{db_name}'
     # SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(basedir, 'database.db')
-    SQLALCHEMY_DATABASE_URI = 'postgres://mclbtgevgkmygr:6ab1508f58bdcee3831f3c4b46163470fbfdafd31fa4934783231dd699bfafc3@ec2-44-193-178-122.compute-1.amazonaws.com:5432/d5l41ilkvbelb7'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://mclbtgevgkmygr:6ab1508f58bdcee3831f3c4b46163470fbfdafd31fa4934783231dd699bfafc3@ec2-44-193-178-122.compute-1.amazonaws.com:5432/d5l41ilkvbelb7'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     MAIL_SERVER = 'smtp.gmail.com'
