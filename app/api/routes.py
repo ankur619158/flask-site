@@ -8,11 +8,14 @@ from random import randint
 from flask_mail import Message
 import uuid
 import jwt
+from datetime import datetime
 
 
 
 EmailPattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 PasswordPattern = r'(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*#?&])[^ \s]{8,}'
+
+secret_key = app.config['SECRET_KEY']
 
 @app.route('/')
 def hello():
@@ -36,8 +39,17 @@ def login():
             return api_response(error="invalid credentials")  
         else:
             payload = {'public_id' : row.public_id}
-            token = jwt.encode(payload , app.config['secret_key'])
-            data = {'first_name' : row.first_name ,'last_name' : row.last_name , 'email' : row.email , 'password' : row.password , 'token' : token}
+            print(secret_key)
+            token = jwt.encode(payload, "SECRET_KEY", 
+            algorithm='HS256').decode('utf-8')
+
+            data = {'first_name' : row.first_name,
+            'last_name' : row.last_name, 
+            'email' : row.email, 
+            'password' : row.password , 
+            'token' : token
+            }
+
             session['email'] = row.email                    # Create Session
             return api_response(data = data)   
        
@@ -69,15 +81,29 @@ def signup():
             return api_response(error="make strong password")
 
         if(password == password_confirmation):
-            user = User(first_name = first_name , last_name= last_name , email = email , password = password)
+            user = User(first_name = first_name ,
+            last_name= last_name ,
+            email = email ,
+            password = password
+            # hashcode = None , 
+            # public_id = None , 
+            # created_at = datetime.now()
+            )
             user.public_id = str(uuid.uuid4()),
             db.session.add(user)                            # Data inserted
             db.session.commit()
 
             row = User.query.filter_by(email = email , password = password).first()
-            data = {'first_name' : row.first_name , 'last_name' : row.last_name , 'email' : row.email , 'password' : row.password}
+            data = {'first_name' : row.first_name , 
+            'last_name' : row.last_name, 
+            'email' : row.email, 
+            'password' : row.password
+            }
             payload = {'public_id' : row.public_id}
-            data['token'] = jwt.encode(payload , app.config['secret_key'])
+            data['token'] = jwt.encode(payload, 
+            "SECRET_KEY", algorithm='HS256'
+            ).decode('utf-8')
+            
             session['email'] = row.email                    # Create session
             return api_response(data=data)  
         else:

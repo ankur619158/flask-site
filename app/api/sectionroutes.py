@@ -20,7 +20,11 @@ def create():
         photo_file_name = secure_filename(photo_file.filename)
         photo_file.save(os.path.join(app.config['UPLOAD_FOLDER'], photo_file_name))      
 
-    s = Section(title=title , details=details , photo_file=photo_file_name , created_by=id)
+    s = Section(title=title, 
+    details=details, 
+    photo_file=photo_file_name, 
+    created_by=id
+    )
     db.session.add(s)
     db.session.commit()
     section = get_section(s.id)
